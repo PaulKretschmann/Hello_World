@@ -1,2 +1,6 @@
 body
 {    background: linear-gradient(rgb(52, 72, 83) 0%, rgba(40, 66, 80, 0.733) 40%, rgba(40, 66, 80, 0.733) 60%, rgb(52, 72, 83) 100%) 0% 0% / cover; }
+a.jobs1,a.ueber_uns2,a.benefits3 {
+  color:#97d700;
+}
+
