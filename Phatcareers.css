@@ -33,6 +33,8 @@ a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefi
   float:left;
   vertical-align:middle;
 }
-
+table.text{
+  float:right;
+}
 
 
