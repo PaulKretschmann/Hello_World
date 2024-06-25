@@ -1,6 +1,11 @@
 body
 {    background: linear-gradient(rgb(52, 72, 83) 0%, rgba(40, 66, 80, 0.733) 40%, rgba(40, 66, 80, 0.733) 60%, rgb(52, 72, 83) 100%) 0% 0% / cover; }
-a.jobs1,a.ueber_uns2,a.benefits3 {
+a.jobs1,a.ueber_uns2,a.benefits3,a.jobs2:hover,a.jobs3:hover,a.ueber_uns1:hover,a.ueber_uns3:hover,a.benefits1:hover,a.benefits2:hover {
   color:#97d700;
+  text-decoration:none;
+}
+a.jobs2:visited,a.jobs3:visited,a.ueber_uns1:visited,a.ueber_uns3:visited,a.benefits1:visited,a.benefits2:visited,a.jobs2,a.jobs3,a.ueber_uns1,a.ueber_uns3,a.benefits1,a.benefits2{
+  color: white;
+  text-decoration: none;
 }
 
