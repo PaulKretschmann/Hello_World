@@ -31,17 +31,8 @@ a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefi
   height:100%;
   display: table;
   float:left;
-}
-.logo p{
-  height:100%;
-  display: table-cell;
-  vertical align:middle;
-  font-size:32px;
+  vertical-align:middle;
 }
 
-.Text a{
-  height: 100%;
-  display: table;
-  float: left;
-  
-}
+
+
