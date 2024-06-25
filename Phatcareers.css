@@ -3,9 +3,14 @@ body
 a.jobs1,a.ueber_uns2,a.benefits3,a.jobs2:hover,a.jobs3:hover,a.ueber_uns1:hover,a.ueber_uns3:hover,a.benefits1:hover,a.benefits2:hover {
   color:#97d700;
   text-decoration:none;
+  font-size:1.1rem;
 }
 a.jobs2:visited,a.jobs3:visited,a.ueber_uns1:visited,a.ueber_uns3:visited,a.benefits1:visited,a.benefits2:visited,a.jobs2,a.jobs3,a.ueber_uns1,a.ueber_uns3,a.benefits1,a.benefits2{
   color: white;
   text-decoration: none;
 }
-
+p{
+  font-family: dinregular, Helvetica, Arial, sans-serif;
+}
+.3er_Zeile{
+  
