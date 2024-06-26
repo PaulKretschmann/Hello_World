@@ -10,7 +10,7 @@ a.jobs2:visited,a.jobs3:visited,a.ueber_uns1:visited,a.ueber_uns3:visited,a.bene
   text-decoration: none;
   font-size:1.1rem;
 }
-p{
+p,th{
   font-family: dinregular, Helvetica, Arial, sans-serif;
 }
 a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefits2,.benefits3,a.home {
