@@ -25,7 +25,7 @@ a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefi
   width:1200px;
   height:100%
   display:block
-  margin: 0 auto;
+  margin: auto;
 }
 .logo{
   height:100%;
