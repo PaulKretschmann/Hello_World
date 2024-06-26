@@ -1,20 +1,21 @@
 body
 {    background: linear-gradient(rgb(52, 72, 83) 0%, rgba(40, 66, 80, 0.733) 40%, rgba(40, 66, 80, 0.733) 60%, rgb(52, 72, 83) 100%) 0% 0% / cover; }
-a.jobs1,a.ueber_uns2,a.benefits3,a.jobs2:hover,a.jobs3:hover,a.ueber_uns1:hover,a.ueber_uns3:hover,a.benefits1:hover,a.benefits2:hover,a.home:hover {
-  color:#97d700;
-  text-decoration:none;
-  font-size:1.1rem;
-}
-a.jobs2:visited,a.jobs3:visited,a.ueber_uns1:visited,a.ueber_uns3:visited,a.benefits1:visited,a.benefits2:visited,a.jobs2,a.jobs3,a.ueber_uns1,a.ueber_uns3,a.benefits1,a.benefits2,a.home{
+a.jobs2:visited,a.jobs3:visited,a.ueber_uns1:visited,a.ueber_uns3:visited,a.benefits1:visited,a.benefits2:visited,a.jobs2,a.jobs3,a.ueber_uns1,a.ueber_uns3,a.benefits1,a.benefits2{
   color: white;
   text-decoration: none;
   font-size:1.1rem;
 }
-p,th{
+a.jobs1,a.ueber_uns2,a.benefits3,a.jobs2:hover,a.jobs3:hover,a.ueber_uns1:hover,a.ueber_uns3:hover,a.benefits1:hover,a.benefits2:hover{
+  color:#97d700;
+  text-decoration:none;
+  font-size:1.1rem;
+}
+
+p,div.text{
   font-family: dinregular, Helvetica, Arial, sans-serif;
 }
 a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefits2,.benefits3,a.home {
-  margin: 8px 0 0 14px;
+  margin: 8px 0 20px 14px;
 }
 .Zeile{
   width: 100%;
@@ -26,7 +27,7 @@ a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefi
   height:100%;
   display:block;
   margin: auto;
-  background-color:grey;
+  
   
 }
 .logo{
@@ -35,10 +36,27 @@ a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefi
   float:left;
   vertical-align:middle;
 }
-table.text{
+.text{
   float:right;
 }
-tr.spalte1{
+.Home,.verbindung{
+  float:right;
+  display:block;
   
 }
-
+.verbindung{
+  margin-top: 60px;
+}
+.Home{
+  margin-top:30px;
+}
+a.home{
+  color: white;
+  text-decoration: none;
+  font-size:1.0rem;
+}
+a.home:hover{
+  color:#97d700;
+  text-decoration:none;
+  font-size:1.0rem;
+}
