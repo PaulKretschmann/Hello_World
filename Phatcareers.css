@@ -62,13 +62,94 @@ a.home:hover{
 }
 .footer{
   width: 1000px;
-  height:600px;
+  height:475px;
   display:block;
   margin:auto;
   text-align: center;
-  background-color:grey;
+  
+  color:white;
 }
 h3.UeberschriftFooter{
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: Graviton;
   font-size: 3rem;
+  font-weight: 400;
+  margin-bottom:0;
+  
+}
+.GmbH{
+  margin: auto;
+  width: 700px;
+  height:100px;
+  
+  text-align:left;
+  margin-top:20px;
+}
+
+.untereBox{
+  display:flex;
+  margin:auto;
+  width:450px;
+  height:150px;
+  
+}
+.Kontakt{
+  margin: auto;
+  width:250px;
+  height:150px;
+  
+  
+  text-align:left;
+}
+.FolgeUns{
+  margin:auto;
+  
+  width:200px;
+  height:150px;
+  
+  text-align:left
+}
+p.ueberschrifth6{
+  font-size:1.25rem;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  margin-bottom:0;
+  margin-top:0;
+  float:left;
+}
+p.copyright{
+  margin-bottom:20px;
+}
+.main{
+  width:1000px;
+  height:100px;
+  
+
+}
+p.motivation{
+  margin-top:0;
+  float:left;
+}
+a.linksFooter{
+  color:white;
+  text-decoration:none;
+  font-size: 1rem;
+  font-family:dinregular, Helvetica, Arial, sans-serif ;
+  
+}
+a.linksFooter:hover{
+  color:#97d700;
+}
+a.mainLink{
+  border-style:solid;
+  border-width:1px;
+  color:white;
+  text-decoration:none;
+  font-size: 1rem;
+  font-family:dinregular, Helvetica, Arial, sans-serif ;
+  padding:2px 2px 2px 2px;
+}
+a.mainLink:hover{
+  color:white;
+  background:#97d700;
+  border-color:#97d700;
 }
