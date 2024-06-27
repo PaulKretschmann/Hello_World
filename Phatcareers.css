@@ -157,26 +157,58 @@ a.mainLink:hover{
   border-color:#97d700;
 }
 .Hauptteil{
-  width:100%;
+  margin:auto;
+  width:1200px;
+  background-color:beige;
 }
 .Initiativbewerbung{
   margin:auto;
   width:700px;
 }
 a.initiativBewerbung{
-  display: inline-block;
   border-style:solid;
   border-width:1px;
   color:white;
-  text-decoration:none;
   font-size:1rem;
   font-family:dinregular, Helvetica, Arial, sans-serif ;
   padding:7px 117px 7px 117px;
   opacity: 0.75;
+  display: inline-block;
+}
+a.initiativBewerbung,a.hier{
+  
+  
+  text-decoration:none;
+  
+  
 }
 a.initiativBewerbung:hover{
+  opacity: 1;
+}
+a.initiativBewerbung:hover, a.hier:hover{
   color:white;
   background:#97d700;
   border-color:#97d700;
-  opacity: 1;
+  
+}
+.Einleitung{
+  margin:auto;
+  background-color:white;
+  color:black;
+  width:700px;
+  height:220px;
+  text-align: center;
+}
+p.Ueberschrift{
+  font-size:2rem;
+  margin-top:0;
+  font-family:"Graviton-LedRegular" ;
+}
+.innereEinleitung{
+  padding-top:25px;
+  margin: 0px 25px 25px 25px;
+}
+a.hier:hover{
+  color:white;
+
 }
