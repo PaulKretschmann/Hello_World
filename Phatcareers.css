@@ -159,8 +159,8 @@ a.mainLink:hover{
 .Hauptteil{
   margin:auto;
   width:1200px;
-  background-color: beige;
-  margin-top: 100px;
+  /*background-color: beige;*/
+  margin-top: 50px;
   
 }
 .Initiativbewerbung{
@@ -189,32 +189,69 @@ a.initiativBewerbung:hover{
   border-color:#97d700;
   
 }
-.Einleitung{
+.Einleitung, .benefitsKasten{
   margin:auto;
   background-color:white;
   color:black;
-  width:700px;
-  height:220px;
+  width:1000px;
+  height:500px;
   text-align: center;
   transition: background-color 0.3 ease;
 }
 p.Ueberschrift{
-  font-size:2rem;
-  margin-top:0;
+  font-size:3rem;
+  margin-top:60px;;
+  margin-left:600px;
   font-family:"Graviton-LedRegular" ;
+  font-weight:200;
 }
 .innereEinleitung{
   padding-top:25px;
   margin: 0px 25px 25px 25px;
 }
-a.hier:hover .innerEinleitung{
+a.hier:hover .Einleitung, a.abenefits:hover .benefitsKasten{
   color:white;
   background:#97d700;
-  border-color:#97d700; 
-  width:720px;
-  height:240px;
+  width:1000px;
+  height:500px;
 }
-.headBild{
+img.headBild{
   width:100%;
   height:400px;
+}
+img.einleitungBild{
+  width:600px;
+  height:500px;
+  float:left;
+}
+.karriereportal{
+  margin:auto;
+  text-align:center;
+}
+p.Karriereportal{
+  font-size: 3rem;
+  font-family: "Graviton-LedRegular";
+  color:white;
+}
+p.Einleitungstext{
+  margin-left:600px;
+  font-size:1.1rem;
+}
+p.hbenefits{
+  font-size:3rem;
+  margin-top:60px;;
+  margin-right:600px;
+  font-family:"Graviton-LedRegular" ;
+  font-weight:200;
+}
+a.abenefits{
+  text-decoration: none;
+  
+}
+.textBenefits{
+  padding-top:25px;
+  margin: 0px 25px 25px 25px;
+}
+.benefitsKasten{
+  margin-top:100px;
 }
