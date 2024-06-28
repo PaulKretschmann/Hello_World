@@ -311,3 +311,20 @@ h4{
 p.berufText{
   margin:20px 10px 10px 10px;
 }
+button.zeigen, button.verstecken{
+  float:right;
+  margin: 10px 105px 100px 0;
+  background-color: rgba(0,0,0,0);
+  color:white;
+  border-style:solid;
+  cursor: pointer;
+  border-color:white;
+  border-width:1px;
+  
+}
+.content{
+  display:none;
+}
+button.verstecken{
+  display:none;
+}
