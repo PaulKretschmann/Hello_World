@@ -295,4 +295,19 @@ img.img1{
   margin-left:45px;
   background-color:white;
   display:inline-block;
+  text-align:center;
+}
+img.fcpp,img.fcs{
+  width:300px;
+  height:300px;
+}
+h4{
+  margin:20px 10px 10px 10px;
+  font-size:1.6rem;
+  font-family:"Graviton-LedRegular";
+  font-weight: 300;
+
+}
+p.berufText{
+  margin:20px 10px 10px 10px;
 }
