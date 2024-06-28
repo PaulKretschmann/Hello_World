@@ -159,7 +159,8 @@ a.mainLink:hover{
 .Hauptteil{
   margin:auto;
   width:1200px;
-  background-color:beige;
+  background-color: beige;
+  
 }
 .Initiativbewerbung{
   margin:auto;
@@ -185,7 +186,7 @@ a.initiativBewerbung,a.hier{
 a.initiativBewerbung:hover{
   opacity: 1;
 }
-a.initiativBewerbung:hover, a.hier:hover{
+a.initiativBewerbung:hover{
   color:white;
   background:#97d700;
   border-color:#97d700;
@@ -198,6 +199,7 @@ a.initiativBewerbung:hover, a.hier:hover{
   width:700px;
   height:220px;
   text-align: center;
+  transition: background-color 0.3 ease;
 }
 p.Ueberschrift{
   font-size:2rem;
@@ -208,7 +210,10 @@ p.Ueberschrift{
   padding-top:25px;
   margin: 0px 25px 25px 25px;
 }
-a.hier:hover{
+a.hier:hover .Einleitung{
   color:white;
-
+  background:#97d700;
+  border-color:#97d700; 
+  width:720px;
+  height:240px;
 }
