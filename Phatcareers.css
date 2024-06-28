@@ -229,7 +229,7 @@ img.einleitungBild{
   text-align:center;
 }
 p.Karriereportal{
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "Graviton-LedRegular";
   color:white;
 }
@@ -254,4 +254,24 @@ a.abenefits{
 }
 .benefitsKasten{
   margin-top:100px;
+}
+img.reeperbahnAusgang{
+  float:right;
+  width:600px;
+  height:500px;
+}
+p.hberufe{
+  font-size:3rem;
+  font-family: "Graviton-LedRegular";
+  color:white;
+}
+.hBerufe{
+  text-align:center;
+  margin:auto;
+}
+.zeile1{
+  margin:auto;
+  width:1000px;
+  height:500px;
+  background-color:aqua;
 }
