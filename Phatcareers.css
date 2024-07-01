@@ -272,18 +272,21 @@ p.hberufe{
   text-align:center;
   margin:auto;
 }
-.zeile1, .zeile2, zeile3, zeile4{
+.zeile1, .zeile2, .zeile3, .zeile4{
   margin:auto;
   width:1000px;
   height:500px;
   /*background-color:aqua;*/
 }
-img.img1{
+img.img1, img.img3{
   margin-top:100px;
   width:300px;
   height:300px;
 }
-.imgZeile1{
+img.img3{
+  transform: scaleX(-1);
+}
+.imgZeile1, .imgZeile3{
   float:left;
   height:500px;
   height:300px;
@@ -300,7 +303,7 @@ img.img1{
   display:inline-block;
   text-align:center;
 }
-.Consultant_Sharepoint, .ConsultantPowerPlatform {
+.Consultant_Sharepoint, .ConsultantPowerPlatform, .ConsultantWindowsClient, .ITProzessmanager {
   height:500px;
   width:300px;
   margin-left:45px;
@@ -358,9 +361,12 @@ img.img2{
   height:300px;
   float:right;
 }
-.zeile2{
+.zeile2,.zeile3{
   margin-top: 100px;
 }
 .CloudSecurityConsultant{
   float:left;
+}
+.ITProzessmanager{
+  float:right
 }
