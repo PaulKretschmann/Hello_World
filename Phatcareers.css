@@ -213,8 +213,7 @@ p.Ueberschrift{
 a.hier:hover .Einleitung, a.abenefits:hover .benefitsKasten{
   color:white;
   background:#97d700;
-  width:1000px;
-  height:500px;
+  
 }
 img.headBild{
   width:100%;
