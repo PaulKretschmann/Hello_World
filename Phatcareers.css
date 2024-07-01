@@ -8,6 +8,9 @@ body
 p,div.text{
   font-family: dinregular, Helvetica, Arial, sans-serif;
 }
+img.logoHeader{
+  
+}
 a.jobs2:visited,a.jobs3:visited,a.ueber_uns1:visited,a.ueber_uns3:visited,a.benefits1:visited,a.benefits2:visited,a.jobs2,a.jobs3,a.ueber_uns1,a.ueber_uns3,a.benefits1,a.benefits2{
   color: white;
   text-decoration: none;
