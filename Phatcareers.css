@@ -2,8 +2,12 @@
   font-family: "Graviton-LedRegular";
   src: url(Graviton-LedRegular.otf);
 }
+
 body
 {    background: linear-gradient(rgb(52, 72, 83) 0%, rgba(40, 66, 80, 0.733) 40%, rgba(40, 66, 80, 0.733) 60%, rgb(52, 72, 83) 100%) 0% 0% / cover; }
+p,div.text{
+  font-family: dinregular, Helvetica, Arial, sans-serif;
+}
 a.jobs2:visited,a.jobs3:visited,a.ueber_uns1:visited,a.ueber_uns3:visited,a.benefits1:visited,a.benefits2:visited,a.jobs2,a.jobs3,a.ueber_uns1,a.ueber_uns3,a.benefits1,a.benefits2{
   color: white;
   text-decoration: none;
@@ -15,9 +19,6 @@ a.jobs1,a.ueber_uns2,a.benefits3,a.jobs2:hover,a.jobs3:hover,a.ueber_uns1:hover,
   font-size:1.1rem;
 }
 
-p,div.text{
-  font-family: dinregular, Helvetica, Arial, sans-serif;
-}
 a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefits2,.benefits3,a.home {
   margin: 8px 0 20px 14px;
 }
