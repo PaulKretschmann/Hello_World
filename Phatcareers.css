@@ -257,7 +257,9 @@ a.abenefits{
 }
 .benefitsKasten{
   margin-top:100px;
+  
 }
+
 img.reeperbahnAusgang{
   float:right;
   width:600px;
@@ -373,7 +375,9 @@ a.linksBerufe{
   color:black;
   text-decoration:none;
 }
-a.linksBerufe:hover .ConsultantPowerPlatform ,a.linksBerufe:hover .Consultant_Sharepoint{
+a.linksBerufe:hover .ConsultantPowerPlatform ,a.linksBerufe:hover .Consultant_Sharepoint, a.linksBerufe:hover .CloudSecurityConsultant,
+a.linksBerufe:hover .ConsultantM365,a.linksBerufe:hover .ConsultantWindowsClient,a.linksBerufe:hover .ITProzessmanager,a.linksBerufe:hover .SeniorSolutionArchitect,
+a.linksBerufe:hover .WerkstudentIT{
   color:white;
   background:#97d700;
 }
