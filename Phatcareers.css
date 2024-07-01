@@ -396,3 +396,7 @@ img.img2,img.img4{
 .ITProzessmanager{
   float:right
 }
+p.benefitstext{
+  margin-right:600px;
+  font-size:1.1rem;
+}
