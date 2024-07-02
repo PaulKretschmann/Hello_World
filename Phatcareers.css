@@ -181,7 +181,7 @@ a.initiativBewerbung{
   opacity: 0.75;
   display: inline-block;
 }
-a.initiativBewerbung,a.hier{
+a.initiativBewerbung{
   text-decoration:none; 
 }
 a.initiativBewerbung:hover{
@@ -214,7 +214,7 @@ p.Ueberschrift{
   padding-top:25px;
   margin: 0px 25px 25px 25px;
 }
-a.hier:hover .Einleitung, a.abenefits:hover .benefitsKasten{
+.Einleitung:hover , .benefitsKasten:hover {
   color:white;
   background:#97d700;
   
@@ -248,9 +248,13 @@ p.hbenefits{
   font-family:"Graviton-LedRegular" ;
   font-weight:200;
 }
-a.abenefits{
+a.abenefits,a.hier{
   text-decoration: none;
+  color:black;
   
+}
+a.abenefits:hover,a.hier:hover{
+  color:white;
 }
 .textBenefits{
   padding-top:25px;
