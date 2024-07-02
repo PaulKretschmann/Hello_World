@@ -504,8 +504,8 @@ li{
   text-align:center;
 }
 img.DHbild, img.NLbild, img.KMbild,img.SGbild,img.SSbild,img.MLbild,img.PTbild{
-width:150px;
-height:150px;
+  width:150px;
+  height:150px;
 }
 .DHbild,.KMbild,.SSbild,.PTbild{
   float:left;
@@ -566,5 +566,27 @@ p.hBenefits{
   width:1000px;
   height:400px;
   margin:auto;
-  background:beige;
+  background:white;
+}
+img.imgbEinleitung{
+  width:400px;
+  height:400px;
+  float:left;
+}
+.mainTextb{
+  display:inline-block;
+  width:600px;
+  height:400px;
+  font-size:1.1rem;
+}
+p.pMainTextb{
+  padding:0px 20px 10px 20px;
+}
+p.hMainTextb{
+  font-family:"Graviton-LedRegular";
+  font-size:2.3rem;
+  margin:30px 10px 20px 10px;
+}
+.ÜberschriftMainTextb{
+  text-align:center;
 }
