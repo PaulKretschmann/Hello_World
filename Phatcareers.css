@@ -83,6 +83,7 @@ h3.UeberschriftFooter{
   font-weight: 400;
   margin-bottom:0;
   
+  
 }
 .GmbH{
   margin: auto;
@@ -440,10 +441,10 @@ p.pwasText{
   
   width:800px;
   float:left;
-  margin-top:100px;
+  margin-top:200px;
 }
 .rechts{
-  background: moccasin;
+  /*background: moccasin;*/
   width:600px;
   float:right;
   margin-top:100px;
@@ -495,7 +496,52 @@ li{
   margin-bottom:5px;
 }
 .Nachhaltigkeit{
-  margin-bottom:100px;
+  margin-bottom:140px;
   height:850px;
   
+}
+.hrechts{
+  text-align:center;
+}
+img.DHbild, img.NLbild, img.KMbild,img.SGbild,img.SSbild,img.MLbild,img.PTbild{
+width:150px;
+height:150px;
+}
+.DHbild,.KMbild,.SSbild,.PTbild{
+  float:left;
+}
+.NLbild,.SGbild,.MLbild{
+  float:right;
+}
+.DH,.NL,.KM,.SG,.SS,.ML,.PT{
+  margin-bottom:60px;
+  height:150px;
+}
+.DHtext,.KMtext,.SStext,.PTtext{
+  
+  background:white;
+  margin:10px 10px 10px 10px;
+  margin-left: 150px;
+  justify-content:center;
+  padding:2px 10px 2px 10px;
+  
+}
+
+.NLtext,.SGtext,.MLtext{
+  
+  background:white;
+  margin:10px 10px 10px 10px;
+  margin-right: 150px;
+  justify-content:center;
+  padding:2px 10px 2px 10px;
+  
+}
+p.hrechts{
+  font-family:"Graviton-LedRegular";
+  font-size:2.3rem;
+  color:white;
+}
+.footerhelfer{
+  width:100%;
+  color:rgba(0,0,0,0);
 }
