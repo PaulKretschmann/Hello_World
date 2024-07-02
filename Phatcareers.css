@@ -545,3 +545,26 @@ p.hrechts{
   width:100%;
   color:rgba(0,0,0,0);
 }
+.headerBildBenefits{
+  height:400px;
+  overflow:hidden;
+}
+img.kicker{
+  width:100%;
+  
+}
+p.hBenefits{
+  font-family:"Graviton-LedRegular";
+  font-size:3.5rem;
+  color:white;
+}
+.bÜberschrift{
+  margin:auto;
+  text-align:center;
+}
+.bEinleitung{
+  width:1000px;
+  height:400px;
+  margin:auto;
+  background:beige;
+}
