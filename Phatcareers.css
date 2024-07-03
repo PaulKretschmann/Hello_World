@@ -590,3 +590,69 @@ p.hMainTextb{
 .ÜberschriftMainTextb{
   text-align:center;
 }
+.alleBenefits{
+  width:1200px;
+  
+  background:rgba(105,103,127,0.5);
+  margin:auto;
+  margin-top:100px;
+  border-radius:50px 50px 50px 50px;
+
+}
+.benefit1,.benefit2,.benefit3,.benefit4,.benefit5,.benefit6,.benefit7,.benefit8,.benefit9{
+  display:inline-block;
+  width:500px;
+  height:100px;
+  margin-top:100px;
+  margin-left:66.6666666667px;
+}
+
+img.imgBenefits{
+  width:125px;
+  height:100px;
+  float:left;
+}
+.texteBenefits{
+  background:white;
+  width:377px;
+  margin-left:125px;
+  border-radius:20px;
+  
+  
+}
+button.buttonBenefitsShow{
+ display:block;
+ float:right;
+ border:none;
+ cursor:pointer;
+ background:rgb(243,243,243);
+ padding:7px 15px 8px 15px;
+ border-radius:0 20px 20px 0;
+
+ 
+}
+button.buttonBenefitsHide{
+  display:none;
+  float:right;
+  border:none;
+  cursor:pointer;
+  background:rgb(243,243,243);
+  padding:7px 15px 8px 15px;
+  border-radius:0 20px 0 0;
+}
+p.hVorteile{
+  font-family:"Graviton-LedRegular";
+  font-size:1.2rem;
+  margin:20px 10px 20px 10px;
+  padding-bottom:5px;
+  padding-top:2px;
+}
+p.pVorteile{
+  font-size:0.9rem;
+  margin:0px 10px 30px 10px;
+  display:none;
+  padding-bottom:10px;
+}
+.htexteBenefits{
+  width:300px;
+}
