@@ -440,13 +440,13 @@ p.pwasText{
 .links{
   
   width:800px;
-  float:left;
-  margin-top:200px;
+  margin:auto;
+  margin-top:100px;
 }
 .rechts{
   /*background: moccasin;*/
-  width:600px;
-  float:right;
+  width:800px;
+  margin:auto;
   margin-top:100px;
 }
 .kultur{
@@ -516,6 +516,8 @@ img.DHbild, img.NLbild, img.KMbild,img.SGbild,img.SSbild,img.MLbild,img.PTbild{
 .DH,.NL,.KM,.SG,.SS,.ML,.PT{
   margin-bottom:60px;
   height:150px;
+  
+
 }
 .DHtext,.KMtext,.SStext,.PTtext{
   
@@ -524,6 +526,9 @@ img.DHbild, img.NLbild, img.KMbild,img.SGbild,img.SSbild,img.MLbild,img.PTbild{
   margin-left: 150px;
   justify-content:center;
   padding:2px 10px 2px 10px;
+  border-radius:20px;
+  
+
   
 }
 
@@ -534,7 +539,17 @@ img.DHbild, img.NLbild, img.KMbild,img.SGbild,img.SSbild,img.MLbild,img.PTbild{
   margin-right: 150px;
   justify-content:center;
   padding:2px 10px 2px 10px;
+  border-radius:20px;
   
+}
+.SS,.DH{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
+.SStext, .DHtext{
+  margin-left:0;
+  width:100%;
 }
 p.hrechts{
   font-family:"Graviton-LedRegular";
