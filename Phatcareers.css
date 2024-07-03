@@ -686,3 +686,25 @@ p.pVorteile{
 .Hauptteilüs{
   margin-top:100px;
 }
+.Einwilligungserklärung{
+  margin:auto;
+  width:1200px;
+  color:white;
+  margin-top:100px;
+  margin-bottom:100px;
+  opacity:0.75;
+}
+.hEinwilligung{
+  text-align:center;
+}
+p.heinwilligung{
+  font-family:"Graviton-LedRegular";
+  font-size:2.3rem;
+  font-weight:500;
+}
+.pEinwilligung{
+  width:900px;
+  margin:auto;
+  font-size:1.1rem;
+  text-align:center;
+}
