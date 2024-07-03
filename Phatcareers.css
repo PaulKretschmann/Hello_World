@@ -454,8 +454,8 @@ p.pwasText{
   height:500px;
 }
 img.imgkultur{
-  width:200px;
-  height:300px;
+  width:300px;
+  height:320px;
   float:left;
   margin-top:100px;
 }
@@ -463,8 +463,8 @@ img.imgkultur{
   background:white;
   text-align:center;
   display:inline-block;
-  width:580px;
-  height:300px;
+  width:500px;
+  height:320px;
   margin-top:100px;
 }
 p.hkultur,p.hnachhaltigkeit{
