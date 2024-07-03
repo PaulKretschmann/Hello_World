@@ -715,6 +715,21 @@ p.heinwilligung{
 }
 img.tisch{
   width:600px;
-  
-
+}
+.HauptteilJobs{
+  width:1200px;
+}
+.einführung{
+  width:800px;
+  background:white;
+  margin:auto;
+}
+img.imgeinführung{
+  width:300px;
+  height:300px;
+  float:left;
+}
+.einführungText{
+  width:500px;
+  float:right;
 }
