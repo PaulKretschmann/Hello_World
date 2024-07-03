@@ -691,7 +691,7 @@ p.pVorteile{
   width:1200px;
   color:white;
   margin-top:100px;
-  margin-bottom:100px;
+  margin-bottom:50px;
   opacity:0.75;
 }
 .hEinwilligung{
@@ -707,4 +707,14 @@ p.heinwilligung{
   margin:auto;
   font-size:1.1rem;
   text-align:center;
+}
+.randomBild{
+  width:600px;
+  margin:auto;
+  margin-bottom:100px;
+}
+img.tisch{
+  width:600px;
+  
+
 }
