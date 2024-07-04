@@ -784,13 +784,63 @@ ul.paufgabenText{
   margin-top:100px;
   height:500px;
 }
-img.imgprofil,img.imgangebot{
+img.imgprofil{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
   margin-top:100px;
 }
+img.imgangebot{
+  width:300px;
+  height:300px;
+  float:right;
+  margin-right:10px;
+  margin-top:100px;
+}
+
 p.peinführungText{
   font-size:1.1rem;
+}
+.einführung2{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:700px;
+}
+img.imgeinführung2{
+  width:300px;
+  height:300px;
+  float:left;
+  margin-left:10px;
+  margin-top:200px;
+}
+.aufgaben2{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:450px;
+}
+img.imgaufgaben2{
+  width:300px;
+  height:300px;
+  float:right;
+  margin-right:10px;
+  margin-top:75px;
+}
+.Profil2{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:800px;
+}
+img.imgprofil2{
+  width:300px;
+  height:300px;
+  float:left;
+  margin-left:10px;
+  margin-top:250px;
 }
