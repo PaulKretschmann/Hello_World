@@ -988,3 +988,45 @@ img.imgaufgaben5{
   margin-right:10px;
   margin-top:200px;
 }
+.aufgaben6{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:600px;
+}
+img.imgaufgaben6{
+  width:300px;
+  height:300px;
+  float:right;
+  margin-right:10px;
+  margin-top:150px;
+}
+.profil6{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:600px;
+}
+img.imgprofil6{
+  width:300px;
+  height:300px;
+  float:left;
+  margin-left:10px;
+  margin-top:150px;
+}
+.angebot6{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:700px;
+}
+img.imgangebot6{
+  width:300px;
+  height:300px;
+  float:right;
+  margin-right:10px;
+  margin-top:200px;
+}
