@@ -844,3 +844,119 @@ img.imgprofil2{
   margin-left:10px;
   margin-top:250px;
 }
+.einführungBild{
+  width:300px;
+}
+.einführung3{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:500px;
+}
+img.imgeinführung3,img.imgeinführung3{
+  width:200px;
+  height:200px;
+  float:left;
+  margin-left:60px;
+  margin-right:50px;
+  margin-top:33px; 
+}
+.aufgaben3{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:850px;
+}
+img.imgaufgaben3{
+  width:300px;
+  height:300px;
+  float:right;
+  margin-right:10px;
+  margin-top:275px;
+}
+.profil3{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:800px;
+}
+img.imgprofil3{
+  width:300px;
+  height:300px;
+  float:left;
+  margin-left:10px;
+  margin-top:250px;
+}
+.angebot3{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:650px;
+}
+img.imgangebot3{
+  width:300px;
+  height:300px;
+  float:right;
+  margin-right:10px;
+  margin-top:175px;
+}
+.einführung4{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:700px;
+}
+img.imgeinführung4{
+  width:300px;
+  height:300px;
+  float:left;
+  margin-left:10px;
+  margin-top:200px;
+}
+.aufgaben4{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:600px;
+}
+img.imgaufgaben4{
+  width:300px;
+  height:300px;
+  float:right;
+  margin-right:10px;
+  margin-top:150px;
+}
+.profil4{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:800px;
+}
+img.imgprofil4{
+  width:300px;
+  height:300px;
+  float:left;
+  margin-left:10px;
+  margin-top:250px;
+}
+.angebot4{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:650px;
+}
+img.imgangebot4{
+  width:300px;
+  height:300px;
+  float:right;
+  margin-right:10px;
+  margin-top:175px;
+}
