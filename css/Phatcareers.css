@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Graviton-LedRegular";
-  src: url(Graviton-LedRegular.otf);
+  src: url(fonts/Graviton-LedRegular.otf);
 }
 
 body
@@ -1029,4 +1029,63 @@ img.imgangebot6{
   float:right;
   margin-right:10px;
   margin-top:200px;
+}
+.einführung7{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:500px;
+}
+img.imgeinführung7{
+  width:300px;
+  height:300px;
+  float:left;
+  margin-left:10px;
+  margin-top:100px;
+}
+.aufgaben7{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:800px;
+}
+img.imgaufgaben7{
+  width:300px;
+  height:300px;
+  float:right;
+  margin-right:10px;
+  margin-top:250px;
+}
+.profil7{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:650px;
+}
+img.imgprofil7{
+  width:300px;
+  height:300px;
+  float:left;
+  margin-left:10px;
+  margin-top:175px;
+}
+.angebot7{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:600px;
+}
+img.imgangebot7{
+  width:300px;
+  height:300px;
+  float:right;
+  margin-right:10px;
+  margin-top:150px;
+}
+.TWIT{
+  margin:5px;
 }
