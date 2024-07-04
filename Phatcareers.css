@@ -960,3 +960,31 @@ img.imgangebot4{
   margin-right:10px;
   margin-top:175px;
 }
+.einführung5{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:400px;
+}
+img.imgeinführung5{
+  width:300px;
+  height:300px;
+  float:left;
+  margin-left:10px;
+  margin-top:50px;
+}
+.aufgaben5{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:700px;
+}
+img.imgaufgaben5{
+  width:300px;
+  height:300px;
+  float:right;
+  margin-right:10px;
+  margin-top:200px;
+}
