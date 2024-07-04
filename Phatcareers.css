@@ -168,9 +168,15 @@ a.mainLink:hover{
   margin-top: 50px;
   
 }
+.Initiativbewerbung2{
+  margin:auto;
+  text-align:center;
+  margin-top:100px;
+}
 .Initiativbewerbung{
   margin:auto;
-  width:700px;
+  text-align:center;
+  margin-top:175px;
 }
 a.initiativBewerbung{
   border-style:solid;
@@ -718,18 +724,73 @@ img.tisch{
 }
 .HauptteilJobs{
   width:1200px;
+  margin:auto;
 }
-.einführung{
+.hEinleitungssatz{
+  margin:auto;
+  text-align:center;
+}
+p.heinleitungssatz{
+  font-family:"Graviton-LedRegular";
+  font-size:3rem;
+  color:white;
+}
+.einführung,.aufgaben{
   width:800px;
   background:white;
   margin:auto;
+  height:350px;
+  margin-top:100px;
 }
 img.imgeinführung{
   width:300px;
   height:300px;
   float:left;
+  margin-left:10px;
+  margin-top:25px;
+  
 }
-.einführungText{
-  width:500px;
+.einführungText,.aufgabenText{
+  width:490px;
+  display:inline-block;
+}
+.hEinführungstext,.hAufgabenText{
+  font-size:2.3rem;
+  font-weight:500;
+  text-align:center;
+}
+p.heinführungstext,p.haufgabenText{
+  font-family:"Graviton-LedRegular";
+  margin-bottom:0;
+  margin-top:20px;
+}
+.pEinführungstext,.pAufgabenText{
+  margin:20px 20px 20px 20px;
+}
+img.imgaufgaben{
+  width:300px;
+  height:300px;
   float:right;
+  margin-right:10px;
+  margin-top:25px;
+}
+ul.paufgabenText{
+  margin-top:0px;
+}
+.Profil,.angebot{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:500px;
+}
+img.imgprofil,img.imgangebot{
+  width:300px;
+  height:300px;
+  float:left;
+  margin-left:10px;
+  margin-top:100px;
+}
+p.peinführungText{
+  font-size:1.1rem;
 }
