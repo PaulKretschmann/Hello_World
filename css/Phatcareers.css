@@ -177,6 +177,7 @@ a.mainLink:hover{
   margin:auto;
   text-align:center;
   margin-top:175px;
+  margin-bottom:50px;
 }
 a.initiativBewerbung{
   border-style:solid;
@@ -1208,4 +1209,7 @@ button.Abschicken:hover{
 }
 span.note{
   font-size: 0.9rem;
+}
+.Berufe{
+  margin:100px;
 }
