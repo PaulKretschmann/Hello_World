@@ -220,6 +220,7 @@ p.Ueberschrift{
 .innereEinleitung{
   padding-top:25px;
   margin: 0px 25px 25px 25px;
+  padding-bottom:85px;
 }
 .Einleitung:hover , .benefitsKasten:hover {
   color:white;
@@ -266,6 +267,7 @@ a.abenefits:hover,a.hier:hover{
 .textBenefits{
   padding-top:25px;
   margin: 0px 25px 25px 25px;
+  padding-bottom:145px;
 }
 .benefitsKasten{
   margin-top:100px;
