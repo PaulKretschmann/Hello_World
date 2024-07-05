@@ -1147,3 +1147,64 @@ img.imgangebot8{
   margin-right:10px;
   margin-top:50px;
 }
+.container{
+  
+  padding-top:5px;
+  width:600px;
+  margin:auto;
+
+}
+.container2{
+  background:white;
+  width:600px;
+  margin:auto;
+  margin-top:80px;
+  padding-top:40px;
+  padding-bottom:40px;
+}
+.error-message {
+  color: red;
+  display: none;
+}
+.form-group,.form-group2{
+  font-size:1.1rem;
+  font-family: dinregular, Helvetica, Arial, sans-serif;
+  display:inline-block;
+  width:200px;
+  height:50px;
+  margin:20px 0px 00px 66px;
+}
+.form-group2{
+  margin-top:100px;
+  float:left;
+  
+}
+.abschicken{
+  margin-top:100px;
+  text-align: center;
+}
+button.Abschicken{
+  border-style:solid;
+  border-width:1px;
+  border-color:white;
+  color:white;
+  font-size:1rem;
+  font-family:dinregular, Helvetica, Arial, sans-serif ;
+  padding:7px 117px 7px 117px;
+  opacity: 0.75;
+  display: inline-block;
+  background:rgba(0,0,0,0)
+}
+button.Abschicken:hover{
+  opacity: 1;
+  cursor:pointer;
+  color:white;
+  background:#97d700;
+  border-color:#97d700;
+}
+.schrift{
+  width:100%;
+}
+span.note{
+  font-size: 0.9rem;
+}

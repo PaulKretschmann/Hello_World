@@ -24,6 +24,98 @@
           </div>
         </div>
       </div>
+      <div class="container">
+        <form id="applicationForm" >
+           
+            <div class="container2">
+                <div class="form-group">
+                    <div class="schrift">
+                        <label for="firstName">Vorname *</label>
+                    </div>
+                    <input type="text" id="firstName" name="firstName" required>
+                    <span class="error-message">Pflichtfeld! Bitte ausfüllen.</span>
+                </div>
+
+                <div class="form-group">
+                    <div class="schrift">
+                        <label for="lastName">Nachname *</label>
+                    </div>
+                    <input type="text" id="lastName" name="lastName" required>
+                    <span class="error-message">Pflichtfeld! Bitte ausfüllen.</span>
+                </div>
+
+                <div class="form-group">
+                    <div class="schrift">
+                        <label for="email">E-Mail-Adresse *</label>
+                    </div>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message">Pflichtfeld! Bitte ausfüllen.</span>
+                </div>
+
+                <div class="form-group">
+                    <div class="schrift">
+                        <label for="phone">Mobilnummer</label>
+                    </div>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div class="form-group">
+                    <div class="schrift">
+                        <label for="source">Gefunden auf</label>
+                    </div>
+                    <select id="source" name="source">
+                        <option value="">Bitte wählen</option>
+                        <option value="linkedin">LinkedIn</option>
+                        <option value="monster">Monster</option>
+                        <option value="other">Sonstiges</option>
+                        <option value="stepstone">StepStone</option>
+                        <option value="Xing">Xing</option>
+                        <option value="veranstaltung">Veranstaltung/Events</option>
+                        <option value="stellenwerk">Stellenwerk</option>
+                        <option value="indeed">Indeed</option>
+                        <option value="kleinanzeigen">kleinanzeigen.de</option>
+                        <option value="kontaktmesse">FH Wedel Kontakmesse 2023</option>
+                        <option value="podcast">Podcast(z.B. CEO2-neutral)</option>
+                        <option value="jobware">Jobware</option>
+                        <option value="freunde">Freunde und Bekannte</option>
+                        <option value="google">Google Jobs</option>
+                        
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <div class="schrift">
+                        <label for="salary">Wunschgehalt</label>
+                    </div>
+                    <input type="text" id="salary" name="salary">
+                </div>
+
+                <div class="form-group2">
+                    <div class="schrift">
+                        <label for="resume">Lebenslauf</label>
+                    </div>
+                    <input type="file" id="resume" name="resume" accept=".pdf">
+                    <span class="note">Dateien (nur PDF, max. 9MB)</span>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label>
+                        <input type="checkbox" name="agreement1" required>
+                        Gemäß der Einwilligungserklärung bin ich mit einer Speicherung meiner Daten im Bewerberpool einverstanden.
+                    </label>
+                    <br><br>
+                    <label>
+                        <input type="checkbox" name="agreement2" required>
+                         Ich habe die Datenschutzerklärung zur Kenntnis genommen und stimme dieser zu.
+                    </label>
+                </div>
+            </div>
+            <div class="abschicken">
+                <button class="Abschicken" type="submit">Bewerbung abschicken!</button>
+            </div>
+        </form>
+      </div>
+      
       <div class="footer">
         <h3 class="UeberschriftFooter">Pairing Humans and Technology</h3>
         <div class="GmbH">
