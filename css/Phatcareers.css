@@ -63,12 +63,12 @@ nav.innere_Zeile,.innere_Zeile{
 a.home{
   color: white;
   text-decoration: none;
-  font-size:16px;
+  
 }
 a.home:hover{
   color:#97d700;
   text-decoration:none;
-  font-size:1.0rem;
+  
 }
 .footer{
   width: 1000px;
@@ -1223,4 +1223,35 @@ span.note{
 }
 .Berufe{
   margin:100px;
+}
+.responsive-text {
+  font-size: 16px;
+}
+
+/* Media Query für Bildschirme kleiner als 1200px */
+@media (max-width: 1200px) {
+  .responsive-text {
+    font-size: 18px;
+  }
+}
+
+/* Media Query für Bildschirme kleiner als 992px */
+@media (max-width: 992px) {
+  .responsive-text {
+    font-size: 20px;
+  }
+}
+
+/* Media Query für Bildschirme kleiner als 768px */
+@media (max-width: 768px) {
+  .responsive-text {
+    font-size: 22px;
+  }
+}
+
+/* Media Query für Bildschirme kleiner als 576px */
+@media (max-width: 576px) {
+  .responsive-text {
+    font-size: 24px;
+  }
 }
