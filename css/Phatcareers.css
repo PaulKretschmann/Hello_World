@@ -176,8 +176,9 @@ a.mainLink:hover{
 .Initiativbewerbung{
   margin:auto;
   text-align:center;
-  margin-top:175px;
+  margin-top:250px;
   margin-bottom:50px;
+  width:100%;
 }
 a.initiativBewerbung{
   border-style:solid;
@@ -188,10 +189,10 @@ a.initiativBewerbung{
   padding:7px 117px 7px 117px;
   opacity: 0.75;
   display: inline-block;
-}
-a.initiativBewerbung{
   text-decoration:none; 
 }
+
+
 a.initiativBewerbung:hover{
   opacity: 1;
 }
@@ -199,7 +200,7 @@ a.initiativBewerbung:hover{
   color:white;
   background:#97d700;
   border-color:#97d700;
-  
+  text-decoration:none; 
 }
 .Einleitung, .benefitsKasten{
   margin:auto;
@@ -264,6 +265,7 @@ a.abenefits,a.hier{
 }
 a.abenefits:hover,a.hier:hover{
   color:white;
+  text-decoration:none; 
 }
 .textBenefits{
   padding-top:25px;
@@ -359,6 +361,7 @@ h4{
   font-size:1.6rem;
   font-family:"Graviton-LedRegular";
   font-weight: 300;
+  padding-top:20px;
 
 }
 p.berufText{
@@ -366,7 +369,7 @@ p.berufText{
 }
 button.zeigen, button.verstecken{
   float:right;
-  margin: 30px 105px 100px 0;
+  margin: 0px 105px 100px 0;
   background-color: rgba(0,0,0,0);
   color:rgba(255,255,255,0.75);
   border-style:solid;
@@ -441,6 +444,7 @@ p.benefitstext{
 p.hwasText{
   font-family:"Graviton-LedRegular";
   font-size: 2.3rem;
+  margin-top:20px;
 }
 p.pwasText{
   padding-left:20px; padding-right:20px;
@@ -591,6 +595,7 @@ p.hBenefits{
 .bÜberschrift{
   margin:auto;
   text-align:center;
+  margin-top:50px;
 }
 .bEinleitung{
   width:1000px;
@@ -607,10 +612,11 @@ img.imgbEinleitung{
   display:inline-block;
   width:600px;
   height:400px;
-  font-size:1.1rem;
+  font-size:1rem;
 }
 p.pMainTextb{
   padding:0px 20px 10px 20px;
+
 }
 p.hMainTextb{
   font-family:"Graviton-LedRegular";
@@ -656,18 +662,18 @@ img.imgBenefits{
   
   
 }
-button.buttonBenefitsShow{
+button.buttonBenefitsShow,button.buttonBenefitsShow2{
  display:block;
  float:right;
  border:none;
  cursor:pointer;
  background:rgb(243,243,243);
- padding:7px 15px 8px 15px;
+ padding:7px 15px 4px 15px;
  border-radius:0 20px 20px 0;
-
- 
 }
-button.buttonBenefitsHide{
+ 
+
+button.buttonBenefitsHide,button.buttonBenefitsHide2{
   display:none;
   float:right;
   border:none;
@@ -675,6 +681,9 @@ button.buttonBenefitsHide{
   background:rgb(243,243,243);
   padding:7px 15px 8px 15px;
   border-radius:0 20px 0 0;
+}
+button.buttonBenefitsShow2,button.buttonBenefitsHide2{
+  padding:20px 15px 20px 15px;
 }
 p.hVorteile{
   font-family:"Graviton-LedRegular";
