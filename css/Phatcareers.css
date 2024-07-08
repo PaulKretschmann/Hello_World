@@ -16,10 +16,10 @@ a.jobs2:visited,a.jobs3:visited,a.ueber_uns1:visited,a.ueber_uns3:visited,a.bene
   text-decoration: none;
   font-size:1.1rem;
 }
-a.jobs1,a.ueber_uns2,a.benefits3,a.jobs2:hover,a.jobs3:hover,a.ueber_uns1:hover,a.ueber_uns3:hover,a.benefits1:hover,a.benefits2:hover{
-  color:#97d700;
+a.jobs1,a.ueber_uns2,a.benefits3,a.jobs2:hover,a.jobs3:hover,a.ueber_uns1:hover,a.ueber_uns3:hover,a.benefits1:hover,a.benefits2:hover,a.jobs1:hover,a.ueber_uns2:hover,a.benefits3:hover{
   text-decoration:none;
   font-size:1.1rem;
+  color:#97d700;
 }
 
 a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefits2,.benefits3,a.home {
@@ -30,7 +30,7 @@ a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefi
   height: 180px;
   display: block;
 }
-.innere_Zeile{
+nav.innere_Zeile,.innere_Zeile{
   width:1000px;
   height:100%;
   display:block;
@@ -46,6 +46,7 @@ a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefi
 }
 .text{
   float:right;
+
 }
 .Home,.verbindung{
   float:right;
@@ -57,11 +58,12 @@ a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefi
 }
 .Home{
   margin-top:30px;
+  
 }
 a.home{
   color: white;
   text-decoration: none;
-  font-size:1.0rem;
+  font-size:16px;
 }
 a.home:hover{
   color:#97d700;
