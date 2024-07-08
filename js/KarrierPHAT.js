@@ -41,20 +41,3 @@ document.getElementById('applicationForm').addEventListener('submit', function(e
     }
 });
 //text größer in nev bar//
-document.addEventListener('DOMContentLoaded', function() {
-    var navbarCollapse = document.querySelector('.navbar-collapse');
-
-    navbarCollapse.addEventListener('show.bs.collapse', function() {
-        var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-        navLinks.forEach(function(link) {
-            link.style.fontSize = '40px'; // Hier kannst du die gewünschte Schriftgröße einstellen
-        });
-    });
-
-    navbarCollapse.addEventListener('hide.bs.collapse', function() {
-        var navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-        navLinks.forEach(function(link) {
-            link.style.fontSize = ''; // Setze die Schriftgröße auf den Standardwert zurück
-        });
-    });
-});

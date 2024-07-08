@@ -4,7 +4,9 @@
 }
 
 body
-{    background: linear-gradient(rgb(52, 72, 83) 0%, rgba(40, 66, 80, 0.733) 40%, rgba(40, 66, 80, 0.733) 60%, rgb(52, 72, 83) 100%) 0% 0% / cover; }
+{    background: linear-gradient(rgb(52, 72, 83) 0%, rgba(40, 66, 80, 0.733) 40%, rgba(40, 66, 80, 0.733) 60%, rgb(52, 72, 83) 100%) 0% 0% / cover;
+margin:auto;
+width:100%; }
 p,div.text{
   font-family: dinregular, Helvetica, Arial, sans-serif;
 }
@@ -26,9 +28,10 @@ a.jobs1, .jobs2, .jobs3, .ueber_uns1 ,.ueber_uns2,.ueber_uns3,.benefits1,.benefi
   margin: 8px 0 20px 14px;
 }
 .Zeile{
-  width: 100%;
+  width: 1000px;
   height: 180px;
   display: block;
+  margin:auto;
 }
 nav.innere_Zeile,.innere_Zeile{
   width:1000px;
@@ -163,7 +166,7 @@ a.mainLink:hover{
 }
 .Hauptteil{
   margin:auto;
-  width:1200px;
+  width:100%;
   /*background-color: beige;*/
   margin-top: 50px;
   
