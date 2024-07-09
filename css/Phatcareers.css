@@ -1283,18 +1283,18 @@ span.note{
      height:50px;
   }
   .Einleitung,.benefitsKasten{
-    width:400px;
+    width:350px;
     height:700px;
   }
   img.einleitungBild,.bildEinleitung,.bildBenefits,img.reeperbahnAusgang{
-    width:400px;
+    width:350px;
     height:300px;
   }
   .innereEinleitung{
     margin-left:0;
     padding-top:0;
     display:block;
-    width:400px;
+    width:350px;
     height:500px;
   }
   p.Ueberschrift,p.Einleitungstext{
@@ -1305,9 +1305,12 @@ span.note{
   }
   .textBenefits{
     height:500px;
+    width:350px;
+    margin-left:0;
   }
   p.benefitstext,p.hbenefits{
     margin-right:0;
+    
   }
   .hBerufe{
     width:100%;
