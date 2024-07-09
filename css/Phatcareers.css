@@ -1238,30 +1238,51 @@ span.note{
 /* Media Query für Bildschirme kleiner als 1200px */
 @media (max-width: 1200px) {
   .responsive-text ,a.resposive-text {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
 
 /* Media Query für Bildschirme kleiner als 992px */
 @media (max-width: 992px) {
   .responsive-text ,a.resposive-text{
-    font-size: 28px;
+    font-size: 16px;
   }
 }
 
 /* Media Query für Bildschirme kleiner als 768px */
 @media (max-width: 768px) {
   .responsive-text ,a.resposive-text{
-    font-size: 34px;
+    font-size: 20px;
   }
   img.logoHeader,a.logo{
     margin:1px 1px 1px 1px;
+  }
+  .text{
+    margin-top:0;
+    width:175px;
+    text-align:right;
+    margin-right:0;
+  }
+  .verbindung{
+    background:grey;
+    margin-top:0;
+    border-radius:20px;
+    margin-bottom:1px;
+    text-align:center;
+  }
+  .Home{
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  li.liverbindung,ul.ulverbindung{
+    margin:0;
+    padding:0;
   }
 }
 
 /* Media Query für Bildschirme kleiner als 576px */
 @media (max-width: 576px) {
   .responsive-text ,a.resposive-text{
-    font-size: 40px;
+    font-size: 20px;
   }
 }
