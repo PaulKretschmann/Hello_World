@@ -1405,6 +1405,10 @@ span.note{
     width:300px;
     margin-top:250px;
   }
+  .Hauptteilüs{
+    width:350px;
+    margin:auto;
+  }
 }
 
 /* Media Query für Bildschirme kleiner als 768px */
