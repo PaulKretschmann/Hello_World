@@ -1282,9 +1282,42 @@ span.note{
     width:130px;
      height:50px;
   }
-  
+  .Einleitung,.benefitsKasten{
+    width:400px;
+    height:700px;
+  }
+  img.einleitungBild,.bildEinleitung,.bildBenefits,img.reeperbahnAusgang{
+    width:400px;
+    height:300px;
+  }
+  .innereEinleitung{
+    margin-left:0;
+    padding-top:0;
+    display:block;
+    width:400px;
+    height:500px;
+  }
+  p.Ueberschrift,p.Einleitungstext{
+    margin-left:0;
+  }
+  p.Ueberschrift,p.hbenefits{
+    margin-top:20px;
+  }
+  .textBenefits{
+    height:500px;
+  }
+  p.benefitstext,p.hbenefits{
+    margin-right:0;
+  }
+  .hBerufe{
+    width:100%;
+    text-align:center;
+  }
+  .Berufe{
+    margin-right:0;
+    margin-left:0;
+  }
 }
-
 /* Media Query für Bildschirme kleiner als 576px */
 @media (max-width: 576px) {
   .responsive-text ,a.resposive-text{
