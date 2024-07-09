@@ -219,8 +219,9 @@ a.initiativBewerbung:hover{
   height:500px;
   text-align: center;
   transition: background-color 0.3 ease;
-  
 }
+
+
 p.Ueberschrift{
   font-size:3rem;
   margin-top:60px;;
@@ -1268,7 +1269,8 @@ span.note{
     margin-top:0;
     border-radius:20px;
     margin-bottom:1px;
-    text-align:center;
+    text-align:left;
+    height:160px;
   }
   .Home{
     margin-top:5px;
@@ -1277,12 +1279,19 @@ span.note{
   li.liverbindung,ul.ulverbindung{
     margin:0;
     padding:0;
+    width:130px;
+     height:50px;
   }
+  
 }
 
 /* Media Query für Bildschirme kleiner als 576px */
 @media (max-width: 576px) {
   .responsive-text ,a.resposive-text{
     font-size: 20px;
+  }
+  p.Karriereportal{
+    font-size:2.5rem;
+    margin-bottom:50px;
   }
 }
