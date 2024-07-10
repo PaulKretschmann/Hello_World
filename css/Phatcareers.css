@@ -1243,6 +1243,26 @@ span.note{
   .responsive-text ,a.resposive-text {
     font-size: 16px;
   }
+  .alleBenefits{
+    width:350px;
+    height:3000px;
+    display:block;
+  }
+  .bilderBenefits{
+    margin:auto;
+    width:125px;
+    height:100px;
+  }
+  .texteBenefits{
+    width:350px;
+    margin-left:0;
+  }
+  .benefit1,.benefit2,.benefit3,.benefit4,.benefit5,.benefit6,.benefit7,.benefit8,.benefit9{
+    margin-left:0;
+    display:block;
+    width:350px;
+    margin-top:225px;
+  }
 }
 @media (max-width: 1000px) {
   
@@ -1490,6 +1510,18 @@ span.note{
   img.imgnachhaltigkeit2,img.imgnachhaltigkeit3{
     display: none;
   }
+  .bEinleitung{
+    width:350px;
+    height:1000px;
+  }
+  .bildbEinleitung,img.imgbEinleitung{
+    width:350px;
+    height:350px;
+  }
+  .mainTextb{
+    width:350px;
+  }
+
 }
 
 /* Media Query für Bildschirme kleiner als 768px */
