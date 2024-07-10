@@ -878,6 +878,9 @@ img.imgprofil2{
 .einführungBild{
   width:300px;
 }
+.einführungBild2{
+  width:300px;
+}
 .einführung3{
   width:800px;
   background:white;
@@ -885,7 +888,7 @@ img.imgprofil2{
   margin-top:100px;
   height:500px;
 }
-img.imgeinführung3,img.imgeinführung3{
+img.imgeinführung31,img.imgeinführung3,img.imgeinführung32{
   width:200px;
   height:200px;
   float:left;
@@ -1314,7 +1317,42 @@ span.note{
     width:350px;
     height:1100px;
   }
-  .einführungBild,img.imgeinführung,.aufgabenBild,img.imgaufgaben,img.imgprofil,img.imgangebot,img.imgeinführung2,img.imgaufgaben2,img.imgprofil2{
+  .einführung3{
+    width:350px;
+    height:900px;
+  }
+  .aufgaben3{
+    width:350px;
+    height:1800px;
+  }
+  .profil3{
+    width:350px;
+    height:1850px;
+  }
+  .angebot3{
+    width:350px;
+    height:1400px;
+  }
+  .einführung4{
+    width:350px;
+    height:1600px;
+  }
+  .aufgaben4{
+    width:350px;
+    height:1300px;
+  }
+  .profil4{
+    width:350px;
+    height:1600px;
+  }
+  .angebot4{
+    width:350px;
+    height:1400px;
+  }
+  
+  .einführungBild,img.imgeinführung,.aufgabenBild,img.imgaufgaben,img.imgprofil,img.imgangebot,img.imgeinführung2,img.imgaufgaben2,img.imgprofil2,img.imgaufgaben3,img.imgprofil3,img.imgangebot3,img.imgeinführung4,img.imgaufgaben4
+  ,img.imgprofil4,img.imgangebot4{
+    
     width:350px;
     height:350px;
     margin:0 0 0 0;
@@ -1322,6 +1360,22 @@ span.note{
   }
   .einführungText,.aufgabenText{
     width:350px;
+  }
+  .einführungBild2{
+    width:350px;
+    height:175px;
+  }
+  img.imgeinführung31{
+    height:175px;
+    margin:0 0 0 0;
+    float:left;
+    width:175px;
+  }
+  img.imgeinführung32{
+    height:175px;
+    width:175px;
+    margin:0 0 0 0;
+    float:right;
   }
 }
 @media (max-width: 1000px) {
