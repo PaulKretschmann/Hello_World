@@ -1,34 +1,49 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
       <link rel="stylesheet" href="css/Phatcareers.css">
-      <title>Über uns</title>
+      <script src="js/KarrierPHAT.js"></script>
+    
+      <title>Startseite</title>
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-      <div class="Zeile">
-        <div class="innere_Zeile">
+     <div class="Zeile">
+       <nav class="innere_Zeile navbar navbar-expand-lg ">
           <a class="logo" href="index.html">
-            <img src="bilder/phat_logo_header.svg" class="logoHeader">
+            <img src="bilder/phat_logo_header.svg" class="logoHeader navbar-brand">
           </a>
-          <div class="text">
-            <div class="Home" >
-              <a class="home" href="https://www.phatconsulting.de/">PHAT HOME</a>
+          
+          <div class="text " style="float:right;">
+            <div class="Home  responsive-text" >
+              <a class="home" href="https://www.phatconsulting.de/" >PHAT HOME</a>
             </div>
             <br>
-            <div class="verbindung">
-             <a class="jobs2" href="index.html">JOBS</a>
-             <a class="ueber_uns2" href="über_uns.html">ÜBER UNS</a>
-             <a class="benefits2" href="benefits.html">BENEFITS</a>
+            <div class="?" style="float:right;">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon mt-1" style="width:100px; height:40px;"><img style="width:80px; height:50px;"src="bilder/menü.png"></span>
+              </button>
+            </div>
+            <div class="verbindung ml-auto collapse navbar-collapse" id="navbarNav">
+             <ul class="ulverbindung navbar-nav ml-auto" style="margin-right:0; padding-right:0;">
+              <li class="liverbindung nav-item active" >
+                <a class="jobs1 nav-link fs-5 responsive-text" href="index.html">JOBS</a></li>
+              <li class="liverbindung nav-item" >
+                <a class="ueber_uns1 nav-link" href="über_uns.html">ÜBER UNS</a></li>
+              <li class="liverbindung nav-item" >
+                <a class="benefits1 nav-link" href="benefits.html">BENEFITS</a></li>
+             </ul>
             </div>
           </div>
-        </div>
+        </nav>
       </div>
       <div class="HauptteilJobs">
         <div class="hEinleitungssatz">
             <p class="heinleitungssatz">Wir suchen Dich als Extpert:in für interne Prozesse und Produkte.</p>
         </div>
         
-        <div class="einführung5">
+        <div class="einführung6">
             <div class="einführungBild">
                 <img class="imgeinführung5" src="https://phat.sharepoint.com/sites/PHATcreation/Bilddatenbank/Mann%20mit%20iPad.png">
             </div>
@@ -150,5 +165,8 @@
           <p class="copyright">Copyright © 2024 PHAT CONSULTING</p>
         </div>
       </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
   </html>
