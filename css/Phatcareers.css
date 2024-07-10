@@ -84,6 +84,7 @@ a.home:hover{
   margin:auto;
   text-align: center;
   
+  
   color:white;
 }
 h3.UeberschriftFooter{
@@ -502,7 +503,7 @@ p.pkultur,.pnachhaltigkeit,ul{
 }
 img.imgnachhaltigkeit,img.imgnachhaltigkeit2,img.imgnachhaltigkeit3{
   width:300px;
-  height:312px;
+  height:344px;
   float:left;
   
 }
@@ -527,7 +528,7 @@ li{
 }
 .Nachhaltigkeit{
   margin-bottom:140px;
-  height:850px;
+  height:1000px;
   width:800px;
 }
 .hrechts{
@@ -1409,6 +1410,86 @@ span.note{
     width:350px;
     margin:auto;
   }
+  .was{
+    width:350px;
+  }
+  .wasText{
+    float:none;
+    width:350px;
+  }
+  .video{
+    display:block;
+    width:350px;
+  }
+  .iframe1{
+    width:350px;
+    height:200px;
+  }
+  .rechts{
+    width:300px;
+    height:4000px;
+  }
+  .DHtext,.NLtext,.KMtext,.SGtext,.SStext,.MLtext,.PTtext{
+    margin-left:0;
+    margin-right:0;
+    width:200px;
+    margin:auto;
+  }
+  .DHbild,.NLbild,.KMbild,.SGbild,.SSbild,.MLbild,.PTbild{
+    float:none;
+    margin:auto;
+    width:150px;
+  }
+  .DH,.NL,.KM,.SG,.SS,.ML,.PT{
+    width:300px;
+    height:400px;
+    display:block;
+    text-align:center;
+  }
+  .SS{
+    height:200px;
+  }
+  .NL,.ML{
+    height:500px;
+  }
+  .KM,.SG,.PT{
+    height:600px;
+  }
+  .links,.kultur,.Nachhaltigkeit{
+    width:350px;
+  }
+  .kultur{
+    margin-top:100px;
+    height:1000px;
+  }
+  .Nachhaltigkeit{
+    margin-bottom:100px;
+    height:1800px;
+  }
+  img.imgkultur,img.imgnachhaltigkeit{
+    width:350px;
+    height:350px;
+    float:none;
+    margin-top:0px;
+
+  }
+  .imgKultur,.imgNachhaltigkeit{
+    height:350px;
+  }
+  .textKultur,.textNachhaltigkeit{
+    float:none;
+    width:350px;
+    height:450px;
+    margin-top:0;
+    
+  }
+  .textNachhaltigkeit{
+    height:1800px;
+
+  }
+  img.imgnachhaltigkeit2,img.imgnachhaltigkeit3{
+    display: none;
+  }
 }
 
 /* Media Query für Bildschirme kleiner als 768px */
@@ -1416,159 +1497,7 @@ span.note{
   .responsive-text ,a.resposive-text{
     font-size: 20px;
   }
-  img.logoHeader,a.logo{
-    margin:1px 1px 1px 1px;
-  }
-  .text{
-    margin-top:0;
-    width:140px;
-    text-align:right;
-    margin-right:0;
-  }
-  .verbindung{
-    background:grey;
-    margin-top:0;
-    border-radius:20px;
-    margin-bottom:1px;
-    text-align:left;
-    height:160px;
-  }
-  .Home{
-    margin-top:5px;
-    margin-bottom:5px;
-    font-weight:100;
-  }
-  li.liverbindung,ul.ulverbindung{
-    margin:0;
-    padding:0;
-    width:130px;
-     height:50px;
-  }
-  .Einleitung,.benefitsKasten{
-    width:350px;
-    height:700px;
-  }
-  img.einleitungBild,.bildEinleitung,.bildBenefits,img.reeperbahnAusgang{
-    width:350px;
-    height:300px;
-  }
-  .innereEinleitung{
-    margin-left:0;
-    padding-top:0;
-    display:block;
-    width:350px;
-    height:500px;
-  }
-  p.Ueberschrift,p.Einleitungstext{
-    margin-left:0;
-  }
-  p.Ueberschrift,p.hbenefits{
-    margin-top:20px;
-  }
-  .textBenefits{
-    height:500px;
-    width:350px;
-    margin-left:0;
-  }
-  p.benefitstext,p.hbenefits{
-    margin-right:0;
-    
-  }
-  .hBerufe{
-    width:100%;
-    text-align:center;
-    font-size:1.5rem;
-    margin-top:50px;
-  }
-  p.hberufe{
-    font-size:2.4rem;
-  }
-  .Berufe{
-    margin-right:0;
-    margin-left:0;
-    width:300px;
-    margin:auto;
-  }
-  .zeile1,.zeile2,.zeile3,.zeile4{
-    width:300px;
-    height:1450px;
-    margin:auto;
-  }
-  img.img1,img.img2,img.img3,img.img4{
-    margin-top:0;
-    margin-right:0;
-  }
-  .imgZeile1,.imgZeile2,.imgZeile3,.imgZeile4{
-    margin:auto;
-    width:100px;
-    height:100px;
-    margin-right:0;
-  }
-  .Consultant_Sharepoint,.ConsultantWindowsClient{
-    margin-left:0;
-    margin-top:250px;
-  }
-  .ConsultantPowerPlatform,.ConsultantM365 ,.CloudSecurityConsultant,.ITProzessmanager,.SeniorSolutionArchitect,.WerkstudentIT{
-    margin-left:0;
-    margin-top:50px;
-  }
-  .buttons{
-    margin:auto;
-    width:300px;
-  }
-  button.zeigen,button.verstecken{
-    margin-right:0;
-    margin-left:0;
-    width:300px;
-    float:none;
-  }
-  .Initiativbewerbung{
-    margin-top:0;
-  }
-  .footer{
-    width:300px;
-    height:950px;
-  }
-  h3.UeberschriftFooter{
-    width:300px;
-    font-size:2.3rem;
-  }
-  .GmbH{
-    width:300px;
-    text-align:center;
-    height:200px;
-  }
-  p.ueberschrifth6{
-    float:none;
-  }
-  p.motivation{
-    float:none;
-  }
-  .Kontakt{
-  display:block;
-  margin:0;
-  text-align:center;
-  width:300px;
-  margin-bottom:50px;
-  }
-  .FolgeUns{
-    display:block;
-    margin:0;
-    text-align:center;
-    width:300px;
-    margin-bottom:50px;
-  }
-  .untereBox{
-    display:block;
-    float:none;
-    margin:auto;
-    text-align:center;
-    width:300px;
-  }
-  .main{
-    width:300px;
-    margin-top:250px;
-  }
+
 }
 /* Media Query für Bildschirme kleiner als 576px */
 @media (max-width: 576px) {
