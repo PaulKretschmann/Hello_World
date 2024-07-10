@@ -1263,6 +1263,13 @@ span.note{
     width:350px;
     margin-top:225px;
   }
+  .Einwilligungserklärung{
+    width:350px;
+  }
+  .pEinwilligung{
+    width:350px;
+  }
+  
 }
 @media (max-width: 1000px) {
   
@@ -1271,6 +1278,10 @@ span.note{
 @media (max-width: 992px) {
   .responsive-text ,a.resposive-text{
     font-size: 16px;
+  }
+  .randomBild,img.tisch{
+    width:350px;
+    height:200px;
   }
   img.logoHeader,a.logo{
     margin:1px 1px 1px 1px;
