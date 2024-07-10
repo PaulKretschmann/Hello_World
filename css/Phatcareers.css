@@ -808,6 +808,13 @@ ul.paufgabenText{
   margin-top:100px;
   height:500px;
 }
+.angebot2{
+  width:800px;
+  background:white;
+  margin:auto;
+  margin-top:100px;
+  height:500px;
+}
 img.imgprofil{
   width:300px;
   height:300px;
@@ -1269,7 +1276,53 @@ span.note{
   .pEinwilligung{
     width:350px;
   }
-  
+  .HauptteilJobs,.hEinleitungssatz{
+    width:350px;
+  }
+  p.heinleitungssatz{
+    font-size:2rem;
+  }
+  .einführung{
+    width:350px;
+    height:900px;
+  }
+  .aufgaben{
+    width:350px;
+    height:1000px;
+  }
+  .Profil{
+    width:350px;
+    height:1300px;
+  }
+  .angebot{
+    width:350px;
+    height:1300px;
+  }
+  .einführung2{
+    width:350px;
+    height:1500px;
+  }
+  .aufgaben2{
+    width:350px;
+    height:1200px;
+  }
+  .Profil2{
+    width:350px;
+    height:1800px;
+  }
+  .angebot2{
+    width:350px;
+    height:1100px;
+  }
+  .einführungBild,img.imgeinführung,.aufgabenBild,img.imgaufgaben,img.imgprofil,img.imgangebot,img.imgeinführung2,img.imgaufgaben2,img.imgprofil2{
+    width:350px;
+    height:350px;
+    margin:0 0 0 0;
+    float:none;
+  }
+  .einführungText,.aufgabenText{
+    width:350px;
+  }
 }
 @media (max-width: 1000px) {
   
