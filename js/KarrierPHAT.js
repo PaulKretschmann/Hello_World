@@ -40,4 +40,4 @@ document.getElementById('applicationForm').addEventListener('submit', function(e
         alert('Bitte füllen Sie alle Pflichtfelder aus.');
     }
 });
-//text größer in nev bar//
+

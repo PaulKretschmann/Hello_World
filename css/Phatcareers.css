@@ -522,7 +522,7 @@ img.imgnachhaltigkeit,img.imgnachhaltigkeit2,img.imgnachhaltigkeit3{
   float:left;
 }
 .textNachhaltigkeit{
-  text-align:center;
+  
   background:white;
   width:500px;
   float:right;
@@ -1258,6 +1258,9 @@ img.imgangebot8{
   margin-top:100px;
   text-align: center;
 }
+.abschicken{
+  margin-bottom:50px;
+}
 button.Abschicken{
   border-style:solid;
   border-width:1px;
@@ -1486,10 +1489,61 @@ span.note{
     margin:0 0 0 0;
     float:right;
   }
-  
+
+  .hBerufe{
+    width:100%;
+    text-align:center;
+    font-size:1.5rem;
+    margin-top:50px;
+  }
+  p.hberufe{
+    font-size:2.4rem;
+  }
+  .Berufe{
+    margin-right:0;
+    margin-left:0;
+    width:300px;
+    margin:auto;
+  }
+  .zeile1,.zeile2,.zeile3,.zeile4{
+    width:300px;
+    height:1450px;
+    margin:auto;
+  }
+  img.img1,img.img2,img.img3,img.img4{
+    margin-top:0;
+    margin-right:0;
+  }
+  .imgZeile1,.imgZeile2,.imgZeile3,.imgZeile4{
+    margin:auto;
+    width:100px;
+    height:100px;
+    margin-right:0;
+  }
+  .Consultant_Sharepoint,.ConsultantWindowsClient{
+    margin-left:0;
+    margin-top:250px;
+  }
+  .ConsultantPowerPlatform,.ConsultantM365 ,.CloudSecurityConsultant,.ITProzessmanager,.SeniorSolutionArchitect,.WerkstudentIT{
+    margin-left:0;
+    margin-top:50px;
+  }
+  .buttons{
+    margin:auto;
+    width:300px;
+  }
+  button.zeigen,button.verstecken{
+    margin-right:0;
+    margin-left:0;
+    width:300px;
+    float:none;
+  }
+  .Initiativbewerbung{
+    margin-top:0;
+  }
 }
 @media (max-width: 1000px) {
-  
+
 }
 /* Media Query für Bildschirme kleiner als 992px */
 @media (max-width: 992px) {
@@ -1714,12 +1768,28 @@ span.note{
   }
   .kultur{
     margin-top:100px;
-    height:1000px;
+    height:950px;
   }
   .Nachhaltigkeit{
     margin-bottom:100px;
-    height:1800px;
+    height:1700px;
   }
+  
+  .hNachhaltigkeit{
+    width:100%;
+    text-align:left;
+    padding-left:30px;
+  }
+  ul.ul1{
+    font-size:16px;
+  }
+  .pnachhaltigkeit{
+    padding-left:30px;
+    padding-right:30px;
+    font-size:16px;
+    
+  }
+
   img.imgkultur,img.imgnachhaltigkeit{
     width:350px;
     height:350px;
@@ -1737,8 +1807,17 @@ span.note{
     margin-top:0;
     
   }
+  .textKultur{
+    text-align:left;
+    padding-left:30px;
+    height:400px;
+  }
+  p.pkultur{
+    padding-left:0;
+    font-size:16px;
+  }
   .textNachhaltigkeit{
-    height:1800px;
+    height:1700px;
 
   }
   img.imgnachhaltigkeit2,img.imgnachhaltigkeit3{
@@ -1776,9 +1855,7 @@ span.note{
     padding-right:50px;
 
   }
-  .abschicken{
-    margin-bottom:50px;
-  }
+  
 
 }
 
