@@ -1270,6 +1270,9 @@ span.note{
 .responsive-text,a.resposive-text {
   font-size: 16px;
 }
+.Zeile{
+  margin-bottom:30px;
+}
 
 /* Media Query für Bildschirme kleiner als 1200px */
 @media (max-width: 1200px) {
@@ -1463,6 +1466,9 @@ span.note{
     width:175px;
     margin:0 0 0 0;
     float:right;
+  }
+  .Initiativbewerbung2{
+    margin-bottom:50px;
   }
 }
 @media (max-width: 1000px) {
@@ -1725,6 +1731,30 @@ span.note{
   }
   .mainTextb{
     width:350px;
+  }
+  .container{
+    width:300px;
+  }
+  .container2{
+    width:300px;
+  }
+  .form-group,.form-group2{
+    margin-left:50px;
+  }
+  input.zu_lang{
+    width:300px;
+    font-size:12px;
+  }
+  .checkbox-group{
+    margin-top:50px;
+  }
+  button.Abschicken{
+    padding-left:50px;
+    padding-right:50px;
+
+  }
+  .abschicken{
+    margin-bottom:50px;
   }
 
 }
