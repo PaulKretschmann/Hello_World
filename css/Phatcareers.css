@@ -159,6 +159,7 @@ a.linksFooter{
 }
 a.linksFooter:hover{
   color:#97d700;
+  text-decoration: none;
 }
 a.mainLink{
   border-style:solid;
@@ -173,6 +174,10 @@ a.mainLink:hover{
   color:white;
   background:#97d700;
   border-color:#97d700;
+  text-decoration: none;
+}
+input.zu_lang{
+  font-size:12px;
 }
 .Hauptteil{
   margin:auto;
@@ -185,6 +190,7 @@ a.mainLink:hover{
   margin:auto;
   text-align:center;
   margin-top:100px;
+  margin-bottom:50px;
 }
 .Initiativbewerbung{
   margin:auto;
@@ -203,6 +209,7 @@ a.initiativBewerbung{
   opacity: 0.75;
   display: inline-block;
   text-decoration:none; 
+  
 }
 
 
@@ -682,7 +689,7 @@ button.buttonBenefitsShow,button.buttonBenefitsShow2{
  border:none;
  cursor:pointer;
  background:rgb(243,243,243);
- padding:7px 15px 4px 15px;
+ padding:6px 15px 5px 15px;
  border-radius:0 20px 20px 0;
 }
  
@@ -698,6 +705,10 @@ button.buttonBenefitsHide,button.buttonBenefitsHide2{
 }
 button.buttonBenefitsShow2,button.buttonBenefitsHide2{
   padding:20px 15px 20px 15px;
+}
+button.buttonBenefitsShow:hover,button.buttonBenefitsShow2:hover,button.buttonBenefitsHide:hover,button.buttonBenefitsHide2:hover{
+  background:#97d700;
+  color:white;
 }
 p.hVorteile{
   font-family:"Graviton-LedRegular";
@@ -765,7 +776,7 @@ p.heinleitungssatz{
   width:800px;
   background:white;
   margin:auto;
-  height:350px;
+  height:450px;
   margin-top:100px;
 }
 img.imgeinführung{
@@ -773,7 +784,7 @@ img.imgeinführung{
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:25px;
+  margin-top:75px;
   
 }
 .einführungText,.aufgabenText{
@@ -793,12 +804,13 @@ p.heinführungstext,p.haufgabenText{
 .pEinführungstext,.pAufgabenText{
   margin:20px 20px 20px 20px;
 }
+
 img.imgaufgaben{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:25px;
+  margin-top:75px;
 }
 ul.paufgabenText{
   margin-top:0px;
@@ -808,28 +820,28 @@ ul.paufgabenText{
   background:white;
   margin:auto;
   margin-top:100px;
-  height:500px;
+  height:600px;
 }
 .angebot2{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:500px;
+  height:600px;
 }
 img.imgprofil{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:100px;
+  margin-top:150px;
 }
 img.imgangebot{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:100px;
+  margin-top:150px;
 }
 
 p.peinführungText{
@@ -840,42 +852,42 @@ p.peinführungText{
   background:white;
   margin:auto;
   margin-top:100px;
-  height:700px;
+  height:850px;
 }
 img.imgeinführung2{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:200px;
+  margin-top:275px;
 }
 .aufgaben2{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:450px;
+  height:500px;
 }
 img.imgaufgaben2{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:75px;
+  margin-top:100px;
 }
 .Profil2{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:800px;
+  height:1000px;
 }
 img.imgprofil2{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:250px;
+  margin-top:350px;
 }
 .einführungBild{
   width:300px;
@@ -888,7 +900,7 @@ img.imgprofil2{
   background:white;
   margin:auto;
   margin-top:100px;
-  height:500px;
+  height:550px;
 }
 img.imgeinführung31,img.imgeinführung3,img.imgeinführung32{
   width:200px;
@@ -903,245 +915,252 @@ img.imgeinführung31,img.imgeinführung3,img.imgeinführung32{
   background:white;
   margin:auto;
   margin-top:100px;
-  height:850px;
+  height:1050px;
 }
 img.imgaufgaben3{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:275px;
+  margin-top:375px;
 }
 .profil3{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:800px;
+  height:1000px;
 }
 img.imgprofil3{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:250px;
+  margin-top:350px;
 }
 .angebot3{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:650px;
+  height:750px;
 }
 img.imgangebot3{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:175px;
+  margin-top:225px;
 }
 .einführung4{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:700px;
+  height:800px;
 }
 img.imgeinführung4{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:200px;
+  margin-top:250px;
 }
 .aufgaben4{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:600px;
+  height:650px;
 }
 img.imgaufgaben4{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:150px;
+  margin-top:175px;
 }
 .profil4{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:800px;
+  height:1000px;
 }
 .profil5{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:800px;
+  height:900px;
+}
+img.imgprofil5{
+  width:300px;
+  height:300px;
+  float:left;
+  margin-left:10px;
+  margin-top:300px;
 }
 img.imgprofil4{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:250px;
+  margin-top:350px;
 }
 .angebot4{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:650px;
+  height:750px;
 }
 .angebot5{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:650px;
+  height:700px;
 }
 img.imgangebot4{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:175px;
+  margin-top:225px;
 }
 .einführung5{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:400px;
+  height:500px;
 }
 .einführung6{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:400px;
+  height:450px;
 }
 img.imgeinführung5{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:50px;
+  margin-top:100px;
 }
 .aufgaben5{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:700px;
+  height:900px;
 }
 img.imgaufgaben5{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:200px;
+  margin-top:300px;
 }
 .aufgaben6{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:600px;
+  height:700px;
 }
 img.imgaufgaben6{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:150px;
+  margin-top:200px;
 }
 .profil6{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:600px;
+  height:700px;
 }
 img.imgprofil6{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:150px;
+  margin-top:200px;
 }
 .angebot6{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:700px;
+  height:850px;
 }
 img.imgangebot6{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:200px;
+  margin-top:275px;
 }
 .einführung7{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:500px;
+  height:600px;
 }
 img.imgeinführung7{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:100px;
+  margin-top:150px;
 }
 .aufgaben7{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:800px;
+  height:1000px;
 }
 img.imgaufgaben7{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:250px;
+  margin-top:350px;
 }
 .profil7{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:650px;
+  height:800px;
 }
 img.imgprofil7{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:175px;
+  margin-top:250px;
 }
 .angebot7{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:600px;
+  height:700px;
 }
 img.imgangebot7{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:150px;
+  margin-top:200px;
 }
 .TWIT{
   margin:5px;
@@ -1151,56 +1170,56 @@ img.imgangebot7{
   background:white;
   margin:auto;
   margin-top:100px;
-  height:400px;
+  height:450px;
 }
 img.imgeinführung8{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:50px;
+  margin-top:75px;
 }
 .aufgaben8{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:550px;
+  height:650px;
 }
 img.imgaufgaben8{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:125px;
+  margin-top:175px;
 }
 .profil8{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:500px;
+  height:550px;
 }
 img.imgprofil8{
   width:300px;
   height:300px;
   float:left;
   margin-left:10px;
-  margin-top:100px;
+  margin-top:125px;
 }
 .angebot8{
   width:800px;
   background:white;
   margin:auto;
   margin-top:100px;
-  height:400px;
+  height:450px;
 }
 img.imgangebot8{
   width:300px;
   height:300px;
   float:right;
   margin-right:10px;
-  margin-top:50px;
+  margin-top:75px;
 }
 
 .container{
@@ -1467,9 +1486,7 @@ span.note{
     margin:0 0 0 0;
     float:right;
   }
-  .Initiativbewerbung2{
-    margin-bottom:50px;
-  }
+  
 }
 @media (max-width: 1000px) {
   
@@ -1658,12 +1675,12 @@ span.note{
   }
   .rechts{
     width:300px;
-    height:4000px;
+    height:3300px;
   }
   .DHtext,.NLtext,.KMtext,.SGtext,.SStext,.MLtext,.PTtext{
     margin-left:0;
     margin-right:0;
-    width:200px;
+    width:300px;
     margin:auto;
   }
   .DHbild,.NLbild,.KMbild,.SGbild,.SSbild,.MLbild,.PTbild{
@@ -1677,14 +1694,20 @@ span.note{
     display:block;
     text-align:center;
   }
+  .DH{
+    height:360px;
+  }
   .SS{
-    height:200px;
+    height:220px;
   }
   .NL,.ML{
-    height:500px;
+    height:410px;
   }
-  .KM,.SG,.PT{
-    height:600px;
+  .KM,.SG{
+    height:460px;
+  }
+  .PT{
+    height:530px;
   }
   .links,.kultur,.Nachhaltigkeit{
     width:350px;
@@ -1771,7 +1794,7 @@ span.note{
   .responsive-text ,a.resposive-text{
     font-size: 20px;
   }
-  p.Karriereportal{
+  p.Karriereportal,p.hBenefits{
     font-size:2.5rem;
     margin-bottom:50px;
   }
