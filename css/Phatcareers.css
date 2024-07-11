@@ -442,7 +442,7 @@ p.benefitstext{
 /*Über uns hauptteil*/
 .Hauptteilüs{
   margin:auto;
-  width:1400px;
+  width:100%;
   
 }
 .was{
@@ -760,7 +760,7 @@ img.tisch{
   width:600px;
 }
 .HauptteilJobs{
-  width:1200px;
+  width:100%;
   margin:auto;
 }
 .hEinleitungssatz{
@@ -1225,8 +1225,11 @@ img.imgangebot8{
 .container{
   
   padding-top:5px;
-  width:600px;
+  padding-left:0;
+  padding-right:0;
+  width:100%;
   margin:auto;
+  
 
 }
 .container2{
@@ -1287,13 +1290,17 @@ span.note{
   font-size: 0.9rem;
 }
 .Berufe{
-  margin:100px;
+  margin-top:100px;
+  margin-bottom:100px;
 }
 .responsive-text,a.resposive-text {
   font-size: 16px;
 }
 .Zeile{
   margin-bottom:30px;
+}
+.w100{
+  width:100%;
 }
 
 /* Media Query für Bildschirme kleiner als 1200px */
@@ -1322,174 +1329,31 @@ span.note{
     margin-top:225px;
   }
   .Einwilligungserklärung{
-    width:350px;
+    width:100%;
   }
-  .pEinwilligung{
-    width:350px;
-  }
-  .HauptteilJobs,.hEinleitungssatz{
-    width:350px;
-  }
-  p.heinleitungssatz{
-    font-size:2rem;
-  }
-  .einführung{
-    width:350px;
-    height:900px;
-  }
-  .aufgaben{
-    width:350px;
-    height:1000px;
-  }
-  .Profil{
-    width:350px;
-    height:1300px;
-  }
-  .angebot{
-    width:350px;
-    height:1300px;
-  }
-  .einführung2{
-    width:350px;
-    height:1500px;
-  }
-  .aufgaben2{
-    width:350px;
-    height:1200px;
-  }
-  .Profil2{
-    width:350px;
-    height:1800px;
-  }
-  .angebot2{
-    width:350px;
-    height:1100px;
-  }
-  .einführung3{
-    width:350px;
-    height:900px;
-  }
-  .aufgaben3{
-    width:350px;
-    height:1800px;
-  }
-  .profil3{
-    width:350px;
-    height:1850px;
-  }
-  .angebot3{
-    width:350px;
-    height:1400px;
-  }
-  .einführung4{
-    width:350px;
-    height:1600px;
-  }
-  .aufgaben4{
-    width:350px;
-    height:1300px;
-  }
-  .profil4{
-    width:350px;
-    height:1600px;
-  }
-  .angebot4{
-    width:350px;
-    height:1400px;
-  }
-  .einführung5{
-    width:350px;
-    height:1050px;
-  }
-  .aufgaben5{
-    width:350px;
-    height:1700px;
-  }
-  .profil5{
-    width:350px;
-    height:1700px;
-  }
-  .angebot5{
-    width:350px;
-    height:1300px;
-  }
-  .einführung6{
-    width:350px;
-    height:950px;
-  }
-  .aufgaben6{
-    width:350px;
-    height:1500px;
-  }
-  .profil6{
-    width:350px;
-    height:1400px;
-  }
-  .angebot6{
-    width:350px;
-    height:1600px; 
-  }
-  .einführung7{
-    width:350px;
-    height:1200px;
-  }
-  .aufgaben7{
-    width:350px;
-    height:1900px;
-  }
-  .profil7{
-    width:350px;
-    height:1550px;
-  }
-  .angebot7{
-    width:350px;
-    height:1350px;
-  }
-  .einführung8{
-    width:350px;
-    height:1100px;
-  }
-  .aufgaben8{
-    width:350px;
-    height:1300px;
-  }
-  .profil8{
-    width:350px;
-    height:1200px;
-  }
-  .angebot8{
-    width:350px;
-    height:1050px;
-  }
-  .einführungBild,img.imgeinführung,.aufgabenBild,img.imgaufgaben,img.imgprofil,img.imgangebot,img.imgeinführung2,img.imgaufgaben2,img.imgprofil2,img.imgaufgaben3,img.imgprofil3,img.imgangebot3,img.imgeinführung4,img.imgaufgaben4
-  ,img.imgprofil4,img.imgangebot4,img.imgeinführung5,img.imgaufgaben5,img.imgaufgaben6,img.imgprofil6,img.imgangebot6,img.imgeinführung7
-  ,img.imgaufgaben7,img.imgprofil7,img.imgangebot7,img.imgeinführung8,img.imgaufgaben8,img.imgprofil8,img.imgangebot8{
-    
-    width:350px;
-    height:350px;
-    margin:0 0 0 0;
-    float:none;
-  }
-  .einführungText,.aufgabenText{
-    width:350px;
-  }
-  .einführungBild2{
-    width:350px;
-    height:175px;
-  }
-  img.imgeinführung31{
-    height:175px;
-    margin:0 0 0 0;
-    float:left;
-    width:175px;
-  }
-  img.imgeinführung32{
-    height:175px;
-    width:175px;
-    margin:0 0 0 0;
-    float:right;
-  }
+  
+ 
 
+ 
+}
+@media (max-width: 1100px) {
+  .was{
+    width:350px;
+  }
+  .wasText{
+    float:none;
+    width:350px;
+  }
+  .video{
+    display:block;
+    width:350px;
+  }
+  .iframe1{
+    width:350px;
+    height:200px;
+  }
+}
+@media (max-width: 1000px) {
   .hBerufe{
     width:100%;
     text-align:center;
@@ -1542,9 +1406,8 @@ span.note{
     margin-top:0;
   }
 }
-@media (max-width: 1000px) {
 
-}
+
 /* Media Query für Bildschirme kleiner als 992px */
 @media (max-width: 992px) {
   .responsive-text ,a.resposive-text{
@@ -1834,12 +1697,7 @@ span.note{
   .mainTextb{
     width:350px;
   }
-  .container{
-    width:300px;
-  }
-  .container2{
-    width:300px;
-  }
+  
   .form-group,.form-group2{
     margin-left:50px;
   }
@@ -1858,21 +1716,203 @@ span.note{
   
 
 }
-
-/* Media Query für Bildschirme kleiner als 768px */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .responsive-text ,a.resposive-text{
     font-size: 20px;
+  }
+  .pEinwilligung{
+    width:100%;
+  }
+}
+/* Media Query für Bildschirme kleiner als 768px */
+@media (max-width: 800px) {
+  .responsive-text ,a.resposive-text{
+    font-size: 20px;
+  }
+  
+  .HauptteilJobs,.hEinleitungssatz{
+    width:350px;
+  }
+  p.heinleitungssatz{
+    font-size:2rem;
+  }
+  .einführung{
+    width:350px;
+    height:900px;
+  }
+  .aufgaben{
+    width:350px;
+    height:1000px;
+  }
+  .Profil{
+    width:350px;
+    height:1300px;
+  }
+  .angebot{
+    width:350px;
+    height:1300px;
+  }
+  .einführung2{
+    width:350px;
+    height:1500px;
+  }
+  .aufgaben2{
+    width:350px;
+    height:1200px;
+  }
+  .Profil2{
+    width:350px;
+    height:1800px;
+  }
+  .angebot2{
+    width:350px;
+    height:1100px;
+  }
+  .einführung3{
+    width:350px;
+    height:900px;
+  }
+  .aufgaben3{
+    width:350px;
+    height:1800px;
+  }
+  .profil3{
+    width:350px;
+    height:1850px;
+  }
+  .angebot3{
+    width:350px;
+    height:1400px;
+  }
+  .einführung4{
+    width:350px;
+    height:1600px;
+  }
+  .aufgaben4{
+    width:350px;
+    height:1300px;
+  }
+  .profil4{
+    width:350px;
+    height:1600px;
+  }
+  .angebot4{
+    width:350px;
+    height:1400px;
+  }
+  .einführung5{
+    width:350px;
+    height:1050px;
+  }
+  .aufgaben5{
+    width:350px;
+    height:1700px;
+  }
+  .profil5{
+    width:350px;
+    height:1700px;
+  }
+  .angebot5{
+    width:350px;
+    height:1300px;
+  }
+  .einführung6{
+    width:350px;
+    height:950px;
+  }
+  .aufgaben6{
+    width:350px;
+    height:1500px;
+  }
+  .profil6{
+    width:350px;
+    height:1400px;
+  }
+  .angebot6{
+    width:350px;
+    height:1600px; 
+  }
+  .einführung7{
+    width:350px;
+    height:1200px;
+  }
+  .aufgaben7{
+    width:350px;
+    height:1900px;
+  }
+  .profil7{
+    width:350px;
+    height:1550px;
+  }
+  .angebot7{
+    width:350px;
+    height:1350px;
+  }
+  .einführung8{
+    width:350px;
+    height:1100px;
+  }
+  .aufgaben8{
+    width:350px;
+    height:1300px;
+  }
+  .profil8{
+    width:350px;
+    height:1200px;
+  }
+  .angebot8{
+    width:350px;
+    height:1050px;
+  }
+  .einführungBild,img.imgeinführung,.aufgabenBild,img.imgaufgaben,img.imgprofil,img.imgangebot,img.imgeinführung2,img.imgaufgaben2,img.imgprofil2,img.imgaufgaben3,img.imgprofil3,img.imgangebot3,img.imgeinführung4,img.imgaufgaben4
+  ,img.imgprofil4,img.imgangebot4,img.imgeinführung5,img.imgaufgaben5,img.imgaufgaben6,img.imgprofil6,img.imgangebot6,img.imgeinführung7
+  ,img.imgaufgaben7,img.imgprofil7,img.imgangebot7,img.imgeinführung8,img.imgaufgaben8,img.imgprofil8,img.imgangebot8{
+    
+    width:350px;
+    height:350px;
+    margin:0 0 0 0;
+    float:none;
+  }
+  .einführungText,.aufgabenText{
+    width:350px;
+  }
+  .einführungBild2{
+    width:350px;
+    height:175px;
+  }
+  img.imgeinführung31{
+    height:175px;
+    margin:0 0 0 0;
+    float:left;
+    width:175px;
+  }
+  img.imgeinführung32{
+    height:175px;
+    width:175px;
+    margin:0 0 0 0;
+    float:right;
+  }
+  .container{
+    width:300px;
+  }
+  .container2{
+    width:300px;
   }
 
 }
 /* Media Query für Bildschirme kleiner als 576px */
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .responsive-text ,a.resposive-text{
     font-size: 20px;
   }
   p.Karriereportal,p.hBenefits{
     font-size:2.5rem;
     margin-bottom:50px;
+  }
+  .container{
+    width:300px;
+  }
+  .container2{
+    width:300px;
   }
 }
