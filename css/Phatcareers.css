@@ -1305,6 +1305,9 @@ span.note{
 .w100{
   width:100%;
 }
+.zitat{
+  padding-top:5px;
+}
 
 /* Media Query für Bildschirme kleiner als 1200px */
 @media (max-width: 1200px) {
@@ -1346,7 +1349,12 @@ span.note{
   .wasText{
     float:none;
     width:350px;
+    height:450px;
   }
+  p.hwasText{
+    padding-top:20px;
+  }
+  
   .video{
     display:block;
     width:350px;
@@ -1652,6 +1660,13 @@ span.note{
     margin-top:100px;
     height:950px;
   }
+  p.hkultur,p.hnachhaltigkeit{
+    padding-top:10px;
+  }
+  p.hnachhaltigkeit{
+    padding-top:360px;
+  }
+  
   .Nachhaltigkeit{
     margin-bottom:100px;
     height:1700px;
