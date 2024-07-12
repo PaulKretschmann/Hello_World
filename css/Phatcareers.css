@@ -1316,7 +1316,7 @@ span.note{
   }
   .alleBenefits{
     width:350px;
-    height:3000px;
+    height:initial;
     display:block;
   }
   .bilderBenefits{
@@ -1332,7 +1332,10 @@ span.note{
     margin-left:0;
     display:block;
     width:350px;
-    margin-top:225px;
+    margin-top:20px;
+    height:initial;
+    margin-bottom:0;
+
   }
   .Einwilligungserklärung{
     width:100%;
