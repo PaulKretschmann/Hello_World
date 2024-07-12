@@ -1748,7 +1748,15 @@ span.note{
     padding-right:50px;
 
   }
-  
+  .Home{
+    margin-right:2px;
+  }
+  .text{
+    margin-top:10px;
+  }
+  a.logo{
+    padding-top:6px;
+  }
 
 }
 @media (max-width: 900px) {
