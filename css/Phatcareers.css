@@ -390,7 +390,7 @@ p.berufText{
 }
 button.zeigen, button.verstecken{
   float:right;
-  margin: 0px 105px 100px 0;
+  margin: 0px 0px 100px 0;
   background-color: rgba(0,0,0,0);
   color:rgba(255,255,255,0.75);
   border-style:solid;
@@ -1307,6 +1307,10 @@ span.note{
 }
 .zitat{
   padding-top:5px;
+}
+.buttons{
+  width:1000px;
+  margin:auto;
 }
 
 /* Media Query für Bildschirme kleiner als 1200px */
