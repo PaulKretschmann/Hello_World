@@ -541,6 +541,7 @@ li{
   margin-bottom:140px;
   height:1000px;
   width:800px;
+  text-align:center;
 }
 .hrechts{
   text-align:center;
@@ -1451,6 +1452,7 @@ span.note{
   .Einleitung,.benefitsKasten{
     width:350px;
     height:700px;
+    text-align:left;
   }
   img.einleitungBild,.bildEinleitung,.bildBenefits,img.reeperbahnAusgang{
     width:350px;
@@ -1462,9 +1464,15 @@ span.note{
     display:block;
     width:350px;
     height:500px;
+    padding-left:30px;
+    padding-right:30px;
+    
   }
   p.Ueberschrift,p.Einleitungstext{
-    margin-left:0;
+    margin-left:0px;
+  }
+  p.Einleitungstext{
+    font-size:16px;
   }
   p.Ueberschrift,p.hbenefits{
     margin-top:20px;
@@ -1473,10 +1481,15 @@ span.note{
     height:500px;
     width:350px;
     margin-left:0;
+    padding-left:30px;
+    padding-right:30px;
   }
   p.benefitstext,p.hbenefits{
     margin-right:0;
     
+  }
+  p.benefitstext{
+    font-size:16px;
   }
   .hBerufe{
     width:100%;
@@ -1528,6 +1541,10 @@ span.note{
   }
   .Initiativbewerbung{
     margin-top:0;
+  }
+  a.initiativBewerbung{
+    padding-right:50px;
+    padding-left:50px;
   }
   .footer{
     width:300px;
@@ -1638,6 +1655,7 @@ span.note{
   .Nachhaltigkeit{
     margin-bottom:100px;
     height:1700px;
+    text-align:left;
   }
   
   .hNachhaltigkeit{
